@@ -1,0 +1,141 @@
+
+body {
+    margin: 0;
+    font-family:  'Montserrat', sans-serif;
+    background-color: #FCCBBB;
+  }
+
+  .topnav {
+    overflow: hidden;
+    background-color: #e37957;
+  }
+
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topnav a:hover {
+    background-color: white;
+    color: #fccbbb;
+  }
+
+  .topnav a.active {
+    background-color: #fccbbb;
+    color: white;
+  }
+
+  .topnav .icon {
+    display: none;
+  }
+
+.content {
+  max-width: 1200px;
+  margin: auto;
+  background-color: #fff;
+  color: #f5b257
+}
+.elizabeth {
+  float: left;
+}
+
+.main {
+  padding: 20px;
+  font-size: 20px;
+}
+header {
+  padding: 20px;
+  background-color: #c06318;
+}
+
+
+  /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+
+  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+  .hero {
+    height: 300px;
+    width: 100%;
+    text-align: center;
+    font-size: 100px;
+    color: white;
+  }
+
+  .bg-orange {
+    background: #FCCBBB;
+    color: white;
+  }
+  .dashed {
+    border: 5px dotted white;
+    color: white;
+  }
+
+  .bg-green {
+    background: #E37957;
+    height: 30px;
+  }
+
+  .hero p {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 10px;
+  }
+  @media only screen and (min-width: 600px) {
+  body {
+    background-color: white;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  body {
+    background-color: white;
+  }
+.recipes
+  {
+  margin: auto;
+  color: #f5b257
+  }
+  .aboutpic
+{
+  width:400px;
+  border: 5px dotted #FCCBBB
+
+}
+.about {
+  right: 0;
+  background: #FCCBBB;
+  height: 200px;
+  width: 500px;
+  text-align: center;
+  font-size: 300px;
+  border: 5px dotted white
+
+
+
+}
